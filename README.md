@@ -1,7 +1,7 @@
 
 # Projeto CEJOL
 
-
+O projeto CEJOL é uma plataforma online que oferece informações relevantes sobre a instituição de ensino para alunos, professores, pais e gestores. O objetivo é facilitar o acesso às informações necessárias e melhorar a comunicação entre a comunidade escolar.
 
 ![Logo](https://i.imgur.com/K0s1doW.png)
 ## Funcionalidades
