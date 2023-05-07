@@ -22,7 +22,7 @@ Para rodar o projeto localmente faça o download das seguintes ferramentas:
 - [XAMPP](https://www.apachefriends.org/pt_br/download.html)
 - [Git](https://git-scm.com/downloads)
 
-Depois de ter instalado as ferramentas, navegue até o local de instalação do xampp e localize a pasta "htdocs" e crie uma pasta com o nome "cejol". Então abra o terminal na pasta criada. e digite o seguinte comando:
+Depois de ter instalado as ferramentas, navegue até o local de instalação do xampp e localize a pasta "htdocs". Então abra o terminal na pasta criada. e digite o seguinte comando:
 
 ```bash
 git clone https://github.com/NeewJax/CEJOL.git
