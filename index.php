@@ -1,15 +1,12 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="PT-BR">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Eduhome - Educational HTML Template</title>
+        <title>CEJOL - Centro Educa Mais João Francisco Lisboa</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/meanmenu.css">
@@ -36,7 +33,7 @@
 					<div class="row">
 						<div class="col-md-3 col-sm-3 col-xs-6">
 							<div class="logo">
-								<a href="index.html"><img src="img/logo/logo.png" alt="eduhome" /></a>
+								<a href="index.html"><img src="img/logo/logo.png" id="logo" alt="CEJOL" /></a>
 							</div>
 						</div>
 						<div class="col-md-9 col-sm-9 col-xs-12">
@@ -45,37 +42,16 @@
                                 <div class="main-menu one text-right">
                                     <nav>
                                         <ul>
-                                            <li><a href="index.html">Home</a>
+                                            <li><a href="about.html">Sobre</a></li>
+                                            <li><a href="course.html">Cursos</a></li>
+                                            <li><a href="event.html">Eventos</a>
                                                 <ul>
-                                                    <li><a href="index.html">Home One</a></li>
-                                                    <li><a href="index-2.html">Home Two</a></li>
-                                                    <li><a href="index-3.html">Home Three</a></li>
-                                                    <li><a href="index-4.html">Home Four</a></li>
-                                                    <li><a href="index-5.html">Home Five</a></li>
+                                                    <li><a href="event.html">Eventos</a></li>
+                                                    <li><a href="event-details.html">Eventos Detalhados</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="course.html">courses</a>
-                                                <ul>
-                                                    <li><a href="course.html">courses</a></li>
-                                                    <li><a href="course-details.html">courses details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="event.html">event</a>
-                                                <ul>
-                                                    <li><a href="event.html">event</a></li>
-                                                    <li><a href="event-left-side-bar.html">event left sidebar</a></li>
-                                                    <li><a href="event-right-side-bar.html">event right sidebar</a></li>
-                                                    <li><a href="event-details.html">event details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="hidden-sm"><a href="teacher.html">teacher</a>
-                                                <ul>
-                                                    <li><a href="teacher.html">teacher</a></li>
-                                                    <li><a href="teacher-details.html">teacher details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="blog.html">blog</a>
+                                            <li class="hidden-sm"><a href="teacher.html">Professores</a></li>
+                                            <li><a href="blog.html">Cronograma</a>
                                                 <ul>
                                                     <li><a href="blog.html">blog</a></li>
                                                     <li><a href="blog-left-side-bar.html">blog left sidebar</a></li>
@@ -83,8 +59,7 @@
                                                     <li><a href="blog-details.html">blog details</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="#">Buy Now</a>
+                                            <li><a href="contact.html">Entre em Contato</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -101,7 +76,7 @@
         <section id="slider-container" class="slider-area"> 
             <div class="slider-owl owl-theme owl-carousel"> 
                 <!-- Start Slingle Slide -->
-                <div class="single-slide item" style="background-image: url(img/slider/slider1.jpeg)">
+                <div class="single-slide item" style="background-image: url(img/slider/slider1.jpg)">
                     <!-- Start Slider Content -->
                     <div class="slider-content-area">  
                         <div class="container">
@@ -109,10 +84,9 @@
                                 <div class="col-md-7 col-md-offset-left-5"> 
                                     <div class="slide-content-wrapper">
                                         <div class="slide-content">
-                                            <h3>EDUCATION MAKES </h3>
-                                            <h2>PROPER HUMANITY </h2>
-                                            <p>I must explain to you how all this mistaken idea of denouncing pleasure and prsing pain was born and I will give you a complete account of the system  </p>
-                                            <a class="default-btn" href="about.html">Learn more</a>
+                                            <h3>Escola João Francisco Lisboa</h3>
+                                            <p>Atuar com profissionalismo e compromisso no desenvolvimento de pessoas éticas, capazes de criar soluções para enfrentar os desafios da vida. </p>
+                                            <a class="default-btn" href="about.html">Saber mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -131,10 +105,9 @@
                                 <div class="col-md-7 col-md-offset-left-5"> 
                                     <div class="slide-content-wrapper text-left">
                                         <div class="slide-content">
-                                            <h3>EDUCATION MAKES </h3>
-                                            <h2>PROPER HUMANITY </h2>
-                                            <p>I must explain to you how all this mistaken idea of denouncing pleasure and prsing pain was born and I will give you a complete account of the system  </p>
-                                            <a class="default-btn" href="about.html">Learn more</a>
+                                            <h3>Escola João Francisco Lisboa </h3>
+                                            <p>Valorizamos a dedicação e a perseverança, bem como a capacidade de se adaptar e superar obstáculos para alcançar os objetivos  </p>
+                                            <a class="default-btn" href="about.html">Saber mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -153,9 +126,8 @@
                                 <div class="col-md-7 col-md-offset-left-5"> 
                                     <div class="slide-content-wrapper">
                                         <div class="slide-content">
-                                            <h3>EDUCATION MAKES </h3>
-                                            <h2>PROPER HUMANITY </h2>
-                                            <p>I must explain to you how all this mistaken idea of denouncing pleasure and prsing pain was born and I will give you a complete account of the system  </p>
+                                            <h3>Escola João Francisco Lisboa </h3>
+                                            <p>Entendemos que temos um papel fundamental na formação dos alunos para compreender os princípios e regras que regem a conduta na sociedade.  </p>
                                             <a class="default-btn" href="about.html">Learn more</a>
                                         </div>
                                     </div>
